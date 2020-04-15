@@ -1,0 +1,21 @@
+v1.1.5 - The I/O Update (Part 2)
+Added components
++Arrow Keys
++WASD
++Spacebar
++Shift/Ctrl/Alt/Enter Keys
+
+*Did a bunch of project reorganization to make Main.cs a little tidier
+
+v1.1.0 - The I/O Update
+Added components:
++Keyboard/Numpad
++TRUE/FALSE gates
+
+v1.0.0 - Initial
+Added components:
+
++Randomizer
++XOR, OR, AND
++D-Flip-Flop, T-Flip-Flop, RS-Latch, and Register
++Adder
