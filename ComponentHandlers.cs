@@ -114,7 +114,7 @@ namespace LWComponentsInTUNG {
         [SaveThisAttribute]
         bool lastState = false; //last state of the input
         protected override void CircuitLogicUpdate() {
-            bool changedStateToTrue = (lastState==false)&&(Inputs[0]==true); //check if state has changed to true
+            bool changedStateToTrue = (lastState==false)&&(Inputs[0].On==true); //check if state has changed to true
             if(changedStateToTrue) { //if so,
                 Outputs[0].On=!Outputs[0].On; //toggle output
             }
